@@ -25,4 +25,8 @@ The following applications are installed silently:
    ```bash
    package__installer.bat
 
+## Note
+The WinGet command line tool is only supported on Windows 10 1709 (build 16299) or later at this time. The WinGet tool will not be available until you have logged into Windows as a user for the first time, triggering Microsoft Store to register Windows Package Manager as part of an asynchronous process. If you have recently logged in as a user for the first time and find that WinGet is not yet available, you can open PowerShell and enter the following command to request this WinGet registration: Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.
+-text from [Microsoft Official Website] (https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+
 This markdown provides clear instructions on the purpose of the script, how to use it, and a breakdown of what each part does. You can include this in your GitHub repository as a `README.md` file.
