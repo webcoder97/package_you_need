@@ -23,6 +23,6 @@ The following applications are installed silently:
 2. Download the `install_apps.bat` script from the repository.
 3. Run the script by double-clicking the `.bat` file or running it in the Command Prompt:
    ```bash
-   install_apps.bat
+   package__installer.bat
 
 This markdown provides clear instructions on the purpose of the script, how to use it, and a breakdown of what each part does. You can include this in your GitHub repository as a `README.md` file.
