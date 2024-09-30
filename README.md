@@ -1,4 +1,4 @@
-# Windows Package Installer using Winget
+# Web Developer/Designer Windows Important Software Installer using Winget
 
 This package installer script automates the installation of common development tools using the [Windows Package Manager](https://learn.microsoft.com/en-us/windows/package-manager/winget/) (`winget`). It installs various tools like Visual Studio Code, Figma, Node.js, and others in one go.
 
